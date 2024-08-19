@@ -14,9 +14,6 @@
 
 pip install pyyaml geopy
 
-shell
-コードをコピーする
-
 ## 使用方法
 
 ### 1. リポジトリのクローン
@@ -26,7 +23,6 @@ shell
 git clone https://github.com/JO3ALT/GLBeaming.git
 cd GLBeaming
 
-arduino
 コードをコピーする
 
 ### 2. `config.yaml` の設定
@@ -40,7 +36,7 @@ locator: "FN31pr" # 例: FN31pr
 
 プログラムを実行し、対象点のグリッドロケーターを入力します。
 
-python GLBeaming.py
+python glbeaming.py
 
 ### 4. 対象点の入力
 
@@ -50,7 +46,7 @@ Enter the target grid locator (4 or 6 digits): JN18bp
 
 ### 5. 結果の表示
 
-入力が正しい場合、基準点から対象点までの距離と方位角（最短経路と反対側）が表示されます。
+入力が正しい場合、基準点から対象点までの距離と方位角（最短経路と反対側）が表示されます。入力が誤りであった場合、再度の入力を促します。
 
 Distance: 123.45 km
 Azimuth (nearest): 45.67°
