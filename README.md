@@ -48,9 +48,9 @@ Enter the target grid locator (4 or 6 digits): JN18bp
 
 入力が正しい場合、基準点から対象点までの距離と方位角（最短経路と反対側）が表示されます。入力が誤りであった場合、再度の入力を促します。
 
-Distance: 123.45 km
-Azimuth (nearest): 45.67°
-Azimuth (opposite): 225.67°
+Distance: 123.45 km  
+Azimuth (nearest): 45.67°  
+Azimuth (opposite): 225.67°  
 
 ## 注意事項
 
